@@ -1,0 +1,50 @@
+body #logo {
+	display: block;
+	margin: 60px auto 30px auto;
+}
+
+body #search {
+	display: block;
+	margin: 0 auto;
+	border-radius: 20px;
+	border: 1px;
+	width: 550px;
+	border-color: #777777;
+	border-style: solid;
+	padding: 5px;
+}
+
+body #search #mag-glass {
+	height: 15px;
+	width: 15px;
+	margin: 5px 0 0 5px;
+}
+
+body #search input {
+    font-size: 16px;
+    border: none;
+    width: 500px;
+    margin-left: 5px;
+}
+
+body #search:hover {
+    box-shadow: 2px 1px 2px 1px #cccccc;
+}
+
+body #buttons {
+	margin: 30px auto;
+	width: 350px;
+}
+
+body #buttons input {
+    min-width: 54px;
+    height: 36px;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 10px;
+    border-style: none;
+}
+
+body #buttons input:hover {
+    border-style: solid;
+}
